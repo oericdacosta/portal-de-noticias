@@ -69,8 +69,32 @@ body.home #navegacao a#home{
 #primario{
     width: 270px;
     float: left;
-    background-color: blue;
     margin: 0 0 20px 195px;
+}
+
+img{
+    border: 2px solid #DFDFDF;
+}
+
+img.imagem-principal{
+    width: 98%;
+    border: 3px solid #DFDFDF;
+}
+
+h3{
+    text-transform: uppercase;
+    display: inline;
+    font-size: 0.8em;
+    padding: 3px;
+}
+
+.destaque h3{
+    background-color: #B10333;
+    color: #fff;
+}
+
+.entrevista h3{
+    background-color: #DE003E;
 }
 
 #duas-colunas #primario{
@@ -85,7 +109,6 @@ body.home #navegacao a#home{
 #secundario{
     width: 270px;
     float: left;
-    background-color: green;
     margin: 0 0 20px 15px;
 }
 
