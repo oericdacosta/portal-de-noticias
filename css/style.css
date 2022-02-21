@@ -93,8 +93,34 @@ h3{
     color: #fff;
 }
 
-.entrevista h3{
-    background-color: #DE003E;
+#lista-noticias li{
+    padding: 2px;
+    border-bottom: 1px solid #CCC;
+    height: 65px;
+}
+
+#lista-noticias li:hover{
+    background-color: #EEE;
+    cursor: pointer;
+}
+
+#lista-noticias li a{
+    text-decoration: none;
+}
+
+#lista-noticias li a h3{
+    padding: 0;
+    font-size: 0.8em;
+    color: #3e7ab9;
+}
+
+#lista-noticias li a p{
+    font-size: 0.6em;
+}
+
+#lista-noticias li a img{
+    float: left;
+    margin: 5px;
 }
 
 #duas-colunas #primario{
@@ -110,6 +136,10 @@ h3{
     width: 270px;
     float: left;
     margin: 0 0 20px 15px;
+}
+
+.entrevista h3{
+    background-color: #DE003E;
 }
 
 .caixa{
