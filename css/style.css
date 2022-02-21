@@ -202,6 +202,14 @@ input[type="submit"]{
     margin-top: 5px;
 }
 
-.clear{
+#rodape{
     clear: both;
+    background-color: #294C71;
+    padding: 20px;
+}
+
+#rodape p{
+    width: 750px;
+    margin: 0 auto;
+    color: #fff;
 }
