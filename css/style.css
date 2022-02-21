@@ -53,3 +53,33 @@ body.home #navegacao a#home{
     background-color: #DE003E;
     cursor: text;
 }
+
+#conteudo{
+    margin-top: 60px;
+    background-color: #F5F5F5;
+}
+
+#primario{
+    width: 270px;
+    float: left;
+    background-color: blue;
+    margin: 0 0 20px 195px;
+}
+
+#secundario{
+    width: 270px;
+    float: left;
+    background-color: green;
+    margin: 0 0 20px 15px;
+}
+
+#lateral{
+    width: 180px;
+    float: left;
+    background-color: yellow;
+    margin: 0 0 20px -750px;
+}
+
+.clear{
+    clear: both;
+}
